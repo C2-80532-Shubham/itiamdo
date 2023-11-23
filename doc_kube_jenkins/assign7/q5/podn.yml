@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod
+spec:
+  containers:
+  - name: nginx-container
+    image: shubhamchau/q5nginx:1.0
+    ports:
+    - containerPort: 80
+
